@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+}
+
+/* Markdown rendered in chat bubbles */
+.markdown p {
+  margin: 0 0 6px 0;
+}
+.markdown p:last-child {
+  margin-bottom: 0;
+}
+.markdown ul,
+.markdown ol {
+  margin: 4px 0 4px 18px;
+  padding: 0;
+}
+.markdown code {
+  background: #e1dfdd;
+  padding: 1px 4px;
+  border-radius: 3px;
+  font-size: 12px;
+}
+.markdown pre {
+  background: #e1dfdd;
+  padding: 8px;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 12px;
+}
